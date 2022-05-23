@@ -13,5 +13,5 @@ setup(name='echoproject',
       test_suite='tests',
       # include_package_data: to install data from MANIFEST.in
       include_package_data=True,
-      scripts=['scripts/echoproject-run'],
+      scripts=['scripts/echoproject-run', 'scripts/echoproject-echo'],
       zip_safe=False)
